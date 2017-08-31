@@ -7,7 +7,7 @@
  * MPLAB 的 XC8(1.31)、MCC18(3.46)
  * IAR(8051) 9.10.1 的 C、C++
 
-MPLAB、IAR沒有執行結果
+MPLAB、IAR沒有執行結果，本來還想測Keil C51的可惜太久沒用licenses過期
 
 
 ### code解說
@@ -246,17 +246,9 @@ IAR的C++ compiler把enumerated type mixed with another enumerated type視為警
     Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\cpp_project\main.cpp 43 
 ### 結論
 在gcc使用編譯C程式時，enum隱式轉成int，int也可以隱式轉成enum且不會提出警告，而MPLAB MCC18、IAR的C/C++則是會提出警告甚至是error，不太一樣
+
 看來要不要給出警告，是依compiler來決定，這點需要小心。
+
 在編譯C++程式呢，則是可以使用typedef enum: unsigned char來改變enum內部存的方法，也許unsigned char也可以換成其他的type，甚至是自訂的type?
 
-
-
-
-
-
-
-
-
-
-
-
+雖然沒有測Keil C51，不過就我以前的印象，好像是不太會提出警告。

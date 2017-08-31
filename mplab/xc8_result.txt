@@ -1,0 +1,33 @@
+Build D:\git\enum_test\mplab\xc8\c_enum for device 18F4550
+Using driver C:\Program Files (x86)\Microchip\xc8\v1.34\bin\xc8.exe
+
+Make: The target "D:\git\enum_test\mplab\xc8\c_enum_test.p1" is out of date.
+Executing: "C:\Program Files (x86)\Microchip\xc8\v1.34\bin\xc8.exe" --pass1 D:\git\enum_test\mplab\xc8\c_enum_test.c -q --chip=18F4550 -P --runtime=default --opt=default -N-1 -D__DEBUG=1 -g --asmlist "--errformat=Error   [%n] %f; %l.%c %s" "--msgformat=Advisory[%n] %s" "--warnformat=Warning [%n] %f; %l.%c %s" 
+Executing: "C:\Program Files (x86)\Microchip\xc8\v1.34\bin\xc8.exe" -oc_enum.cof -mc_enum.map --summary=default --output=default c_enum_test.p1 --chip=18F4550 -P --runtime=default --opt=default -N-1 -D__DEBUG=1 -g --asmlist "--errformat=Error   [%n] %f; %l.%c %s" "--msgformat=Advisory[%n] %s" "--warnformat=Warning [%n] %f; %l.%c %s" 
+Microchip MPLAB XC8 C Compiler (Free Mode) V1.34
+Build date: Feb 16 2015
+Part Support Version: 1.34
+Copyright (C) 2015 Microchip Technology Inc.
+License type: Node Configuration
+
+Advisory[1233] Employing 18F4550 errata work-arounds:
+Advisory[1234]  * Corrupted fast interrupt shadow registers
+Warning [1273] ; . Omniscient Code Generation not available in Free mode
+
+Memory Summary:
+    Program space        used   52Ch (  1324) of  8000h bytes   (  4.0%)
+    Data space           used    26h (    38) of   800h bytes   (  1.9%)
+    Configuration bits   used     0h (     0) of     7h words   (  0.0%)
+    EEPROM space         used     0h (     0) of   100h bytes   (  0.0%)
+    ID Location space    used     0h (     0) of     8h bytes   (  0.0%)
+    Data stack space     used     0h (     0) of   7A0h bytes   (  0.0%)
+
+Running this compiler in PRO mode, with Omniscient Code Generation enabled,
+often produces code which is 60% smaller and at least 400% faster than in
+Free mode. The MPLAB XC8 PRO compiler output for this code could be
+794 bytes smaller and run 4 times faster.
+See http://www.microchip.com/MPLABXCcompilers for more information.
+
+Loaded D:\git\enum_test\mplab\xc8\c_enum.cof.
+
+********** Build successful! **********

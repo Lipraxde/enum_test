@@ -1,0 +1,15 @@
+Warning[2103] D:\git\enum_test\mplab\mcc18\c_enum_test.c 16 : default startup code expects main function declared as 'void main (void)'
+Warning[2066] D:\git\enum_test\mplab\mcc18\c_enum_test.c 21 : type qualifier mismatch in assignment
+Warning[2066] D:\git\enum_test\mplab\mcc18\c_enum_test.c 22 : type qualifier mismatch in assignment
+Warning[2066] D:\git\enum_test\mplab\mcc18\c_enum_test.c 26 : type qualifier mismatch in assignment
+Warning[2066] D:\git\enum_test\mplab\mcc18\c_enum_test.c 27 : type qualifier mismatch in assignment
+Warning[2066] D:\git\enum_test\mplab\mcc18\c_enum_test.c 28 : type qualifier mismatch in assignment
+Warning[2066] D:\git\enum_test\mplab\mcc18\c_enum_test.c 29 : type qualifier mismatch in assignment
+Warning[2066] D:\git\enum_test\mplab\mcc18\c_enum_test.c 30 : type qualifier mismatch in assignment
+Warning[2066] D:\git\enum_test\mplab\mcc18\c_enum_test.c 31 : type qualifier mismatch in assignment
+Warning[2066] D:\git\enum_test\mplab\mcc18\c_enum_test.c 32 : type qualifier mismatch in assignment
+Warning[2066] D:\git\enum_test\mplab\mcc18\c_enum_test.c 39 : type qualifier mismatch in assignment
+Warning[2066] D:\git\enum_test\mplab\mcc18\c_enum_test.c 40 : type qualifier mismatch in assignment
+Warning[2066] D:\git\enum_test\mplab\mcc18\c_enum_test.c 41 : type qualifier mismatch in assignment
+Warning[2066] D:\git\enum_test\mplab\mcc18\c_enum_test.c 42 : type qualifier mismatch in assignment
+Warning[2066] D:\git\enum_test\mplab\mcc18\c_enum_test.c 43 : type qualifier mismatch in assignment

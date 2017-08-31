@@ -1,0 +1,23 @@
+IAR Embedded Workbench for 8051 IDE, including complete build chain and debugger. 9.10.1
+IAR Embedded Workbench common components 7.0.6.3257
+
+main.c  
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\c_project\main.c 28 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\c_project\main.c 29 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\c_project\main.c 30 
+Warning[Pe188]: enumerated type mixed with another type D:\git\enum_test\iar\c_project\main.c 33 
+Warning[Pe188]: enumerated type mixed with another type D:\git\enum_test\iar\c_project\main.c 34 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\c_project\main.c 35 
+Warning[Pe188]: enumerated type mixed with another type D:\git\enum_test\iar\c_project\main.c 35 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\c_project\main.c 36 
+Warning[Pe188]: enumerated type mixed with another type D:\git\enum_test\iar\c_project\main.c 36 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\c_project\main.c 37 
+Warning[Pe188]: enumerated type mixed with another type D:\git\enum_test\iar\c_project\main.c 37 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\c_project\main.c 38 
+Warning[Pe188]: enumerated type mixed with another type D:\git\enum_test\iar\c_project\main.c 38 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\c_project\main.c 40 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\c_project\main.c 41 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\c_project\main.c 42 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\c_project\main.c 43 
+ 
+Done. 0 error(s), 17 warning(s) 

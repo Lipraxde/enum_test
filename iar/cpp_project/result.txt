@@ -1,0 +1,24 @@
+IAR Embedded Workbench for 8051 IDE, including complete build chain and debugger. 9.10.1
+IAR Embedded Workbench common components 7.0.6.3257
+
+main.cpp  
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\cpp_project\main.cpp 28 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\cpp_project\main.cpp 29 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\cpp_project\main.cpp 30 
+Error[Pe513]: a value of type "int" cannot be assigned to an entity of type "enumA_t" D:\git\enum_test\iar\cpp_project\main.cpp 33 
+Error[Pe513]: a value of type "int" cannot be assigned to an entity of type "enumA_t" D:\git\enum_test\iar\cpp_project\main.cpp 34 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\cpp_project\main.cpp 35 
+Error[Pe513]: a value of type "int" cannot be assigned to an entity of type "enumA_t" D:\git\enum_test\iar\cpp_project\main.cpp 35 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\cpp_project\main.cpp 36 
+Error[Pe513]: a value of type "int" cannot be assigned to an entity of type "enumA_t" D:\git\enum_test\iar\cpp_project\main.cpp 36 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\cpp_project\main.cpp 37 
+Error[Pe513]: a value of type "int" cannot be assigned to an entity of type "enumA_t" D:\git\enum_test\iar\cpp_project\main.cpp 37 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\cpp_project\main.cpp 38 
+Error[Pe513]: a value of type "int" cannot be assigned to an entity of type "enumA_t" D:\git\enum_test\iar\cpp_project\main.cpp 38 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\cpp_project\main.cpp 40 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\cpp_project\main.cpp 41 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\cpp_project\main.cpp 42 
+Warning[Pa089]: enumerated type mixed with another enumerated type D:\git\enum_test\iar\cpp_project\main.cpp 43 
+Error while running C/C++ Compiler 
+ 
+Done. 6 error(s), 11 warning(s) 

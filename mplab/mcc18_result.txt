@@ -1,0 +1,42 @@
+----------------------------------------------------------------------
+Debug build of project `D:\git\enum_test\mplab\mcc18\c_enum.mcp' started.
+Language tool versions: mpasmwin.exe v5.50, mplink.exe v4.48, mcc18.exe v3.46, mplib.exe v4.48
+Preprocessor symbol `__DEBUG' is defined.
+Thu Aug 31 20:27:37 2017
+----------------------------------------------------------------------
+Make: The target "D:\git\enum_test\mplab\mcc18\c_enum_test.o" is out of date.
+Executing: "C:\Program Files (x86)\Microchip\mplabc18\v3.46\bin\mcc18.exe" -p=18F4550 "c_enum_test.c" -fo="c_enum_test.o" -D__DEBUG -Ou- -Ot- -Ob- -Op- -Or- -Od- -Opa-
+D:\git\enum_test\mplab\mcc18\c_enum_test.c:16:Warning [2103] default startup code expects main function declared as 'void main (void)'
+D:\git\enum_test\mplab\mcc18\c_enum_test.c:21:Warning [2066] type qualifier mismatch in assignment
+D:\git\enum_test\mplab\mcc18\c_enum_test.c:22:Warning [2066] type qualifier mismatch in assignment
+D:\git\enum_test\mplab\mcc18\c_enum_test.c:26:Warning [2066] type qualifier mismatch in assignment
+D:\git\enum_test\mplab\mcc18\c_enum_test.c:27:Warning [2066] type qualifier mismatch in assignment
+D:\git\enum_test\mplab\mcc18\c_enum_test.c:28:Warning [2066] type qualifier mismatch in assignment
+D:\git\enum_test\mplab\mcc18\c_enum_test.c:29:Warning [2066] type qualifier mismatch in assignment
+D:\git\enum_test\mplab\mcc18\c_enum_test.c:30:Warning [2066] type qualifier mismatch in assignment
+D:\git\enum_test\mplab\mcc18\c_enum_test.c:31:Warning [2066] type qualifier mismatch in assignment
+D:\git\enum_test\mplab\mcc18\c_enum_test.c:32:Warning [2066] type qualifier mismatch in assignment
+D:\git\enum_test\mplab\mcc18\c_enum_test.c:39:Warning [2066] type qualifier mismatch in assignment
+D:\git\enum_test\mplab\mcc18\c_enum_test.c:40:Warning [2066] type qualifier mismatch in assignment
+D:\git\enum_test\mplab\mcc18\c_enum_test.c:41:Warning [2066] type qualifier mismatch in assignment
+D:\git\enum_test\mplab\mcc18\c_enum_test.c:42:Warning [2066] type qualifier mismatch in assignment
+D:\git\enum_test\mplab\mcc18\c_enum_test.c:43:Warning [2066] type qualifier mismatch in assignment
+Make: The target "D:\git\enum_test\mplab\mcc18\c_enum.cof" is out of date.
+Executing: "C:\Program Files (x86)\Microchip\mplabc18\v3.46\bin\mplink.exe" /p18F4550 /l"C:\Program Files (x86)\Microchip\mplabc18\v3.46\lib" "c_enum_test.o" /u_CRUNTIME /u_DEBUG /z__MPLAB_BUILD=1 /z__MPLAB_DEBUG=1 /o"c_enum.cof" /M"c_enum.map" /W
+MPLINK 4.48, Linker
+Device Database Version 1.13
+Copyright (c) 1998-2011 Microchip Technology Inc.
+Errors    : 0
+
+MP2HEX 4.48, COFF to HEX File Converter
+Copyright (c) 1998-2011 Microchip Technology Inc.
+Errors    : 0
+
+Loaded D:\git\enum_test\mplab\mcc18\c_enum.cof.
+----------------------------------------------------------------------
+Debug build of project `D:\git\enum_test\mplab\mcc18\c_enum.mcp' succeeded.
+Language tool versions: mpasmwin.exe v5.50, mplink.exe v4.48, mcc18.exe v3.46, mplib.exe v4.48
+Preprocessor symbol `__DEBUG' is defined.
+Thu Aug 31 20:27:38 2017
+----------------------------------------------------------------------
+BUILD SUCCEEDED

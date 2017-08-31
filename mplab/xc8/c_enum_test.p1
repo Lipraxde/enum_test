@@ -1,0 +1,216 @@
+Version 3.2 HI-TECH Software Intermediate Code
+[p mainexit ]
+"18 D:\git\enum_test\mplab\xc8\c_enum_test.c
+[c E185 1 2 .. ]
+[n E185 . first second  ]
+"19
+[c E189 3 4 .. ]
+[n E189 . third fourth  ]
+"207 C:\Program Files (x86)\Microchip\xc8\v1.34\include\stdio.h
+[v _printf `(i ~T0 @X0 0 ev`*Cuc ]
+[; ;stdio.h: 8: typedef int ptrdiff_t;
+[; ;stdio.h: 9: typedef unsigned size_t;
+[; ;stdio.h: 10: typedef unsigned short wchar_t;
+[; ;stdarg.h: 7: typedef void * va_list[1];
+[; ;stdarg.h: 10: extern void * __va_start(void);
+[; ;stdarg.h: 13: extern void * __va_arg(void *, ...);
+[; ;stdio.h: 24: extern int errno;
+[; ;stdio.h: 55: struct __prbuf
+[; ;stdio.h: 56: {
+[; ;stdio.h: 57: char * ptr;
+[; ;stdio.h: 58: void (* func)(char);
+[; ;stdio.h: 59: };
+[; ;conio.h: 17: extern int errno;
+[; ;conio.h: 20: extern void init_uart(void);
+[; ;conio.h: 22: extern char getch(void);
+[; ;conio.h: 23: extern char getche(void);
+[; ;conio.h: 24: extern void putch(char);
+[; ;conio.h: 25: extern void ungetch(char);
+[; ;conio.h: 27: extern __bit kbhit(void);
+[; ;conio.h: 31: extern char * cgets(char *);
+[; ;conio.h: 32: extern void cputs(const char *);
+[; ;stdio.h: 100: extern int cprintf(char *, ...);
+[; ;stdio.h: 105: extern int _doprnt(struct __prbuf *, const register char *, register va_list);
+[; ;stdio.h: 195: extern char * gets(char *);
+[; ;stdio.h: 196: extern int puts(const char *);
+[; ;stdio.h: 197: extern int scanf(const char *, ...) __attribute__((unsupported("scanf() is not supported by this compiler")));
+[; ;stdio.h: 198: extern int sscanf(const char *, const char *, ...) __attribute__((unsupported("sscanf() is not supported by this compiler")));
+[; ;stdio.h: 199: extern int vprintf(const char *, va_list) __attribute__((unsupported("vprintf() is not supported by this compiler")));
+[; ;stdio.h: 200: extern int vsprintf(char *, const char *, va_list) __attribute__((unsupported("vsprintf() is not supported by this compiler")));
+[; ;stdio.h: 201: extern int vscanf(const char *, va_list ap) __attribute__((unsupported("vscanf() is not supported by this compiler")));
+[; ;stdio.h: 202: extern int vsscanf(const char *, const char *, va_list) __attribute__((unsupported("vsscanf() is not supported by this compiler")));
+[; ;stdio.h: 206: extern int sprintf(char *, const char *, ...);
+[; ;stdio.h: 207: extern int printf(const char *, ...);
+[; ;stdlib.h: 27: typedef struct {
+[; ;stdlib.h: 28: int rem;
+[; ;stdlib.h: 29: int quot;
+[; ;stdlib.h: 30: } div_t;
+[; ;stdlib.h: 31: typedef struct {
+[; ;stdlib.h: 32: unsigned rem;
+[; ;stdlib.h: 33: unsigned quot;
+[; ;stdlib.h: 34: } udiv_t;
+[; ;stdlib.h: 35: typedef struct {
+[; ;stdlib.h: 36: long quot;
+[; ;stdlib.h: 37: long rem;
+[; ;stdlib.h: 38: } ldiv_t;
+[; ;stdlib.h: 39: typedef struct {
+[; ;stdlib.h: 40: unsigned long quot;
+[; ;stdlib.h: 41: unsigned long rem;
+[; ;stdlib.h: 42: } uldiv_t;
+[; ;stdlib.h: 65: extern double atof(const char *);
+[; ;stdlib.h: 66: extern double strtod(const char *, const char **);
+[; ;stdlib.h: 67: extern int atoi(const char *);
+[; ;stdlib.h: 68: extern unsigned xtoi(const char *);
+[; ;stdlib.h: 69: extern long atol(const char *);
+[; ;stdlib.h: 70: extern long strtol(const char *, char **, int);
+[; ;stdlib.h: 72: extern int rand(void);
+[; ;stdlib.h: 73: extern void srand(unsigned int);
+[; ;stdlib.h: 74: extern void * calloc(size_t, size_t);
+[; ;stdlib.h: 75: extern div_t div(int numer, int denom);
+[; ;stdlib.h: 76: extern udiv_t udiv(unsigned numer, unsigned denom);
+[; ;stdlib.h: 77: extern ldiv_t ldiv(long numer, long denom);
+[; ;stdlib.h: 78: extern uldiv_t uldiv(unsigned long numer,unsigned long denom);
+[; ;stdlib.h: 79: extern unsigned long _lrotl(unsigned long value, unsigned int shift);
+[; ;stdlib.h: 80: extern unsigned long _lrotr(unsigned long value, unsigned int shift);
+[; ;stdlib.h: 81: extern unsigned int _rotl(unsigned int value, unsigned int shift);
+[; ;stdlib.h: 82: extern unsigned int _rotr(unsigned int value, unsigned int shift);
+[; ;stdlib.h: 87: extern void * malloc(size_t);
+[; ;stdlib.h: 88: extern void free(void *);
+[; ;stdlib.h: 89: extern void * realloc(void *, size_t);
+[; ;xc8debug.h: 14: extern void __builtin_software_breakpoint(void);
+[; ;stdlib.h: 98: extern int atexit(void (*)(void));
+[; ;stdlib.h: 99: extern char * getenv(const char *);
+[; ;stdlib.h: 100: extern char ** environ;
+[; ;stdlib.h: 101: extern int system(char *);
+[; ;stdlib.h: 102: extern void qsort(void *, size_t, size_t, int (*)(const void *, const void *));
+[; ;stdlib.h: 103: extern void * bsearch(const void *, void *, size_t, size_t, int(*)(const void *, const void *));
+[; ;stdlib.h: 104: extern int abs(int);
+[; ;stdlib.h: 105: extern long labs(long);
+[; ;stdlib.h: 108: extern char * itoa(char * buf, int val, int base);
+[; ;stdlib.h: 109: extern char * utoa(char * buf, unsigned val, int base);
+[; ;stdlib.h: 114: extern char * ltoa(char * buf, long val, int base);
+[; ;stdlib.h: 115: extern char * ultoa(char * buf, unsigned long val, int base);
+[; ;stdlib.h: 117: extern char * ftoa(float f, int * status);
+[; ;c_enum_test.c: 4: typedef enum
+[; ;c_enum_test.c: 5: {
+[; ;c_enum_test.c: 6: first = 0x01,
+[; ;c_enum_test.c: 7: second = 0x02
+[; ;c_enum_test.c: 8: } enumA_t;
+[; ;c_enum_test.c: 10: typedef enum
+[; ;c_enum_test.c: 11: {
+[; ;c_enum_test.c: 12: third = 0x03,
+[; ;c_enum_test.c: 13: fourth = 0x04
+[; ;c_enum_test.c: 14: } enumB_t;
+"16 D:\git\enum_test\mplab\xc8\c_enum_test.c
+[v _main `(i ~T0 @X0 1 ef ]
+"17
+{
+[; ;c_enum_test.c: 16: int main(void)
+[; ;c_enum_test.c: 17: {
+[e :U _main ]
+[f ]
+"18
+[v _A `E185 ~T0 @X0 1 a ]
+"19
+[v _B `E189 ~T0 @X0 1 a ]
+[; ;c_enum_test.c: 18: enumA_t A;
+[; ;c_enum_test.c: 19: enumB_t B;
+[; ;c_enum_test.c: 21: printf("sizeof(enumA_t) = %d\n", (int)sizeof(enumA_t));
+"21
+[e ( _printf , (. :s 1C -> -> # `E185 `ui `i ]
+[; ;c_enum_test.c: 22: printf("sizeof(enumB_t) = %d\n", (int)sizeof(enumB_t));
+"22
+[e ( _printf , (. :s 2C -> -> # `E189 `ui `i ]
+[; ;c_enum_test.c: 24: A = first;
+"24
+[e = _A . `E185 0 ]
+[; ;c_enum_test.c: 25: B = third;
+"25
+[e = _B . `E189 0 ]
+[; ;c_enum_test.c: 26: printf("A = first = %d\n", (int)A);
+"26
+[e ( _printf , (. :s 3C -> _A `i ]
+[; ;c_enum_test.c: 27: printf("B = third = %d\n", (int)B);
+"27
+[e ( _printf , (. :s 4C -> _B `i ]
+[; ;c_enum_test.c: 28: printf("A == B     : %s\n", (A==B) ? "True" : "False");
+"28
+[e ( _printf , (. :s 5C ? == -> _A `i -> _B `i : :s 6C :s 7C ]
+[; ;c_enum_test.c: 29: printf("A >= B     : %s\n", (A>=B) ? "True" : "False");
+"29
+[e ( _printf , (. :s 8C ? >= -> _A `i -> _B `i : :s 9C :s 10C ]
+[; ;c_enum_test.c: 30: printf("A <= B     : %s\n", (A<=B) ? "True" : "False");
+"30
+[e ( _printf , (. :s 11C ? <= -> _A `i -> _B `i : :s 12C :s 13C ]
+[; ;c_enum_test.c: 31: printf("A == 0x01  : %s\n", (A==0x01) ? "True" : "False");
+"31
+[e ( _printf , (. :s 14C ? == -> _A `i -> 1 `i : :s 15C :s 16C ]
+[; ;c_enum_test.c: 32: printf("A == 0x02  : %s\n", (A==0x02) ? "True" : "False");
+"32
+[e ( _printf , (. :s 17C ? == -> _A `i -> 2 `i : :s 18C :s 19C ]
+[; ;c_enum_test.c: 33: A = 0x01;
+"33
+[e = _A -> -> 1 `i `E185 ]
+[; ;c_enum_test.c: 34: A = 0x88;
+"34
+[e = _A -> -> 136 `i `E185 ]
+[; ;c_enum_test.c: 35: A = A&B;
+"35
+[e = _A -> & -> _A `i -> _B `i `E185 ]
+[; ;c_enum_test.c: 36: A = A|B;
+"36
+[e = _A -> | -> _A `i -> _B `i `E185 ]
+[; ;c_enum_test.c: 37: A = A+B;
+"37
+[e = _A -> + -> _A `i -> _B `i `E185 ]
+[; ;c_enum_test.c: 38: A = A*B;
+"38
+[e = _A -> * -> _A `i -> _B `i `E185 ]
+[; ;c_enum_test.c: 39: printf("sizeof(A) = %d\n", (int)sizeof(A));
+"39
+[e ( _printf , (. :s 20C -> -> # _A `ui `i ]
+[; ;c_enum_test.c: 40: printf("sizeof(A&B) = %d\n", (int)sizeof(A&B));
+"40
+[e ( _printf , (. :s 21C -> -> # & -> _A `i -> _B `i `ui `i ]
+[; ;c_enum_test.c: 41: printf("sizeof(A|B) = %d\n", (int)sizeof(A|B));
+"41
+[e ( _printf , (. :s 22C -> -> # | -> _A `i -> _B `i `ui `i ]
+[; ;c_enum_test.c: 42: printf("sizeof(A+B) = %d\n", (int)sizeof(A+B));
+"42
+[e ( _printf , (. :s 23C -> -> # + -> _A `i -> _B `i `ui `i ]
+[; ;c_enum_test.c: 43: printf("sizeof(A*B) = %d\n", (int)sizeof(A*B));
+"43
+[e ( _printf , (. :s 24C -> -> # * -> _A `i -> _B `i `ui `i ]
+[; ;c_enum_test.c: 45: return 0;
+"45
+[e ) -> 0 `i ]
+[e $UE 6  ]
+[; ;c_enum_test.c: 46: }
+"46
+[e :UE 6 ]
+}
+[p f _printf 8650880 ]
+[a 6C 84 114 117 101 0 ]
+[a 9C 84 114 117 101 0 ]
+[a 12C 84 114 117 101 0 ]
+[a 15C 84 114 117 101 0 ]
+[a 18C 84 114 117 101 0 ]
+[a 7C 70 97 108 115 101 0 ]
+[a 10C 70 97 108 115 101 0 ]
+[a 13C 70 97 108 115 101 0 ]
+[a 16C 70 97 108 115 101 0 ]
+[a 19C 70 97 108 115 101 0 ]
+[a 17C 65 32 61 61 32 48 120 48 50 32 32 58 32 37 115 10 0 ]
+[a 14C 65 32 61 61 32 48 120 48 49 32 32 58 32 37 115 10 0 ]
+[a 8C 65 32 62 61 32 66 32 32 32 32 32 58 32 37 115 10 0 ]
+[a 5C 65 32 61 61 32 66 32 32 32 32 32 58 32 37 115 10 0 ]
+[a 11C 65 32 60 61 32 66 32 32 32 32 32 58 32 37 115 10 0 ]
+[a 3C 65 32 61 32 102 105 114 115 116 32 61 32 37 100 10 0 ]
+[a 4C 66 32 61 32 116 104 105 114 100 32 61 32 37 100 10 0 ]
+[a 2C 115 105 122 101 111 102 40 101 110 117 109 66 95 116 41 32 61 32 37 100 10 0 ]
+[a 1C 115 105 122 101 111 102 40 101 110 117 109 65 95 116 41 32 61 32 37 100 10 0 ]
+[a 22C 115 105 122 101 111 102 40 65 124 66 41 32 61 32 37 100 10 0 ]
+[a 23C 115 105 122 101 111 102 40 65 43 66 41 32 61 32 37 100 10 0 ]
+[a 24C 115 105 122 101 111 102 40 65 42 66 41 32 61 32 37 100 10 0 ]
+[a 21C 115 105 122 101 111 102 40 65 38 66 41 32 61 32 37 100 10 0 ]
+[a 20C 115 105 122 101 111 102 40 65 41 32 61 32 37 100 10 0 ]
